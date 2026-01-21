@@ -1,8 +1,8 @@
-📚 Library Management System (Python + MySQL)
+#📚 Library Management System (Python + MySQL)
 
 A desktop-based Library Management System developed using Python (Tkinter) and MySQL to manage library members, books, and transaction records through an interactive graphical user interface.
 
-🚀 Features
+#🚀 Features
 
 User-friendly Tkinter GUI with structured frames and forms
 
