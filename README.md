@@ -1,59 +1,52 @@
-
 # 📚 Library Management System (Python + MySQL)
 
-A desktop-based Library Management System developed using Python (Tkinter) and MySQL to manage library members, books, and transaction records through an interactive graphical user interface.
+A desktop-based Library Management System built using Python (Tkinter) and MySQL.  
+The application manages library members, books, and transactions through an interactive graphical interface with real-time database synchronization.
 
+---
 
-# 🚀 Features
+## 🚀 Features
 
-User-friendly Tkinter GUI with structured frames and forms
+- User-friendly Tkinter GUI with structured frames and input forms
+- Book selection system with auto-filled ID, title, author, and price
+- Full CRUD operations (Add, Update, Delete, View)
+- MySQL database integration for persistent storage
+- Live data display using Treeview tables with scrollbars
+- Event-driven GUI–database synchronization
 
-Book selection system with automatic population of Book ID, Title, Author, and Price
+---
 
-Full CRUD operations (Add, Update, Delete, View) for library records
+## 🛠 Tech Stack
 
-MySQL database integration for persistent data storage
+- **Language:** Python
+- **GUI Framework:** Tkinter, ttk
+- **Database:** MySQL
+- **Connector:** mysql-connector-python
+- **IDE:** VS Code
 
-Real-time data display using Treeview tables with scrollbars
+---
 
-Event-driven programming for seamless GUI–database synchronization
+## 🧪 Usage
 
+1. Enter member and book details in the GUI
+2. Select a book to auto-fill book information
+3. Use Add / Update / Delete buttons to manage records
+4. View stored data in the table section
 
-# 🛠️ Tech Stack
+---
 
-Programming Language: Python
+## 📈 Future Enhancements
 
-GUI: Tkinter, ttk
+- User authentication and role management
+- Search and filtering system
+- Automatic overdue fine calculation
+- Export reports to Excel or PDF
 
-Database: MySQL
+---
 
-Database Connector: mysql-connector-python
+## ⭐ Acknowledgment
 
-IDE: VS Code
+This project was developed as part of an academic learning initiative to strengthen skills in GUI development, database integration, and event-driven programming using Python.
 
+---
 
-# 🧪 Usage
-
-Enter member and book details in the GUI
-
-Select a book from the list to auto-fill book information
-
-Use Add / Update / Delete buttons to manage records
-
-View stored data in the table section
-
-
-# 📈 Future Enhancements
-
-User authentication and role management
-
-Search and filter functionality
-
-Automatic fine calculation for overdue books
-
-Export reports to Excel or PDF
-
-
-# ⭐ Acknowledgment
-
-This project was developed as part of an academic learning initiative to understand GUI development, database integration, and event-driven programming in Python.
